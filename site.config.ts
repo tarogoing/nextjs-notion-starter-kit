@@ -2,15 +2,15 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'TaroGo-Blog-6e72325705204c2ab76bba23e9be2c0e',
+  rootNotionPageId: '6e72325705204c2ab76bba23e9be2c0e',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Tarogo Blog',
-  domain: 'https://spiny-sulfur-031.notion.site/TaroGo-Blog-6e72325705204c2ab76bba23e9be2c0e',
+  name: 'Tarogo Notion Blog',
+  domain: 'https://spiny-sulfur-031.notion.site/6e72325705204c2ab76bba23e9be2c0e',
   author: 'Tarogo Cloud',
 
   // open graph metadata (optional)
